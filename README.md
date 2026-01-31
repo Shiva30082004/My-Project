@@ -1,63 +1,105 @@
 # My-Project
-🌟 Project Summary
-WanderLust is a full-stack web application built to simplify the discovery and booking of vacation accommodations such as houses, villas, and farm stays. The platform enables users not only to browse available properties but also to list their own accommodations, creating a diverse and user-driven rental marketplace.
+🌟 WanderLust
 
-The application features an intuitive booking workflow that streamlines reservations, along with interactive property location mapping powered by the Mapbox API. For secure and convenient access, WanderLust supports authentication through Google OAuth and GitHub OAuth. A dynamically managed backend ensures responsive performance, while the clean and modern user interface delivers a smooth and engaging user experience across the platform.
+A full-stack property listing and booking application designed to provide a seamless experience for users searching, exploring, and booking properties.
 
-🌟 Front-end
+🌟 Front-end Technologies
+
 Technologies Used: HTML, CSS, JavaScript, Bootstrap, EJS
-Features:
-Responsive Design: Optimized for various devices
-User-friendly Interface: For searching and listing properties
-Mapbox API Integration: For location-based search and property mapping
 
-🌟 Back-end
-Technologies Used: Node.js, Express.js
 Features:
-RESTful API: Handles user interactions
-User Authentication and Authorization: Using Passport.js and JWT (JSON Web Tokens)
-Endpoints: For property listing, login/sign up, and user management
+
+Responsive Design: Optimized for various devices
+
+User-friendly Interface: Easy to navigate for searching and listing properties
+
+Mapbox API Integration: Location-based search and property mapping
+
+🌟 Back-end Technologies
+
+Technologies Used: Node.js, Express.js
+
+Features:
+
+RESTful API: Handles user interactions efficiently
+
+User Authentication & Authorization: Implemented with Passport.js and JWT (JSON Web Tokens)
+
+Endpoints: For property listings, login/sign-up, and user management
+
 Seamless Booking System: Simplifies the reservation process
 
 🌟 Database
+
 Database Management System: MongoDB Atlas
+
 Features:
-Structured Database Schema: For efficient data management
-Database Queries: To retrieve and store property and user information
-Cloudinary Image Storage
-Image Hosting: All listing images are securely stored on Cloudinary, providing reliable and efficient image hosting. This ensures that images are easily accessible, optimized for performance, and enhance the overall user experience.
+
+Structured Database Schema: Efficient data management
+
+Database Queries: For storing and retrieving property and user information
+
+Cloudinary Image Storage: All listing images are securely stored on Cloudinary for optimized performance
 
 🌟 Additional Features
-Search and Filter: Advanced system for property listings
-User Reviews and Ratings: Feature for users to review and rate properties
+
+Search & Filter: Advanced system for property listings
+
+User Reviews & Ratings: Users can review and rate properties
+
 Security: Ensured through encryption and data validation
+
 Map Integration: For location-based features
-Client/Server-side Validations: Thorough validations to ensure smooth operation
-EJS Templates: For modular routing and dynamic views
-Cookies and Sessions: For user-friendly authentication and notifications
+
+Client/Server-side Validations: Ensures smooth operation
+
+EJS Templates: Modular routing and dynamic views
+
+Cookies & Sessions: User-friendly authentication and notifications
+
 MVC Architecture: For scalable and organized code
-Multer: For handling file uploads
 
-🌟 Deployment 
-The WanderLust project has been deployed using Render, connected with MongoDB Atlas for database management.
+Multer: Handles file uploads
 
-🌟 Live Application: [WanderLust](https://my-project-pjs2.onrender.com/listings)
+🌟 Deployment
 
-🌟 Technologies & Packages Used:
+The WanderLust project is deployed using Render, connected with MongoDB Atlas for database management.
 
-MongoDB
-Express.js
-Node.js
-Passport.js for Authentication
-Cloudinary for Image Storage
-Connect Flash for Flash Messages
-Connect Mongo for Session Storage
-Cookie Parser for Parsing Cookies
-Dotenv for Environment Variables
-EJS for Template Rendering
-Express Session for Session Handling
-Joi for Data Validation
-Mongoose for MongoDB Object Modeling
-Multer for File Uploads
-Passport Local for Local Authentication
-Passport Local Mongoose for Mongoose-Specific Authentication
+Live Application: [WanderLust](https://my-project-pjs2.onrender.com/listings)
+
+🌟 Technologies & Packages Used
+
+MongoDB – Database management
+
+Express.js – Web framework
+
+Node.js – Server-side runtime
+
+Passport.js – Authentication
+
+Cloudinary – Image storage
+
+Connect-Flash – Flash messages
+
+Connect-Mongo – Session storage
+
+Cookie-Parser – Cookie handling
+
+Dotenv – Environment variables
+
+EJS – Template rendering
+
+Express-Session – Session management
+
+Joi – Data validation
+
+Mongoose – MongoDB object modeling
+
+Multer – File uploads
+
+Passport-Local – Local authentication strategy
+
+Passport-Local-Mongoose – Mongoose-specific Passport integration
+
+
+
